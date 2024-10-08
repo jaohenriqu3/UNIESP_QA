@@ -1,4 +1,4 @@
-public class DescontoService {
+public class Desconto {
 
     public double calculaDesconto(double preco, double percentualDesconto) {
         validarParametros(preco, percentualDesconto);
