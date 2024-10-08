@@ -22,5 +22,3 @@ class TestFatorial(unittest.TestCase):
 if __name__ == '__main__':
     print("Chamando o unittest.main!")
     unittest.main()
-
-    
