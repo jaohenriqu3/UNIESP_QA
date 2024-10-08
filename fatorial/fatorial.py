@@ -19,7 +19,6 @@ class TestFatorial(unittest.TestCase):
     def test_fatorial_nao_negativo(self):
         self.assertFalse(fatorial(5) < 0) 
 
-
 if __name__ == '__main__':
     print("Chamando o unittest.main!")
     unittest.main()   
