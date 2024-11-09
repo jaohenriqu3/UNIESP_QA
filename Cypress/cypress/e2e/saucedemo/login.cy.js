@@ -12,9 +12,11 @@ context('Testes de Login', () => {
         cy.get('[data-test="password"]').type('secret_sauce')
 
         // Clicar no botão -> Login 
-        cy.click('data-test="login-button')
+        cy.get('[data-test="login-button"]').click();
 
-        // Verificar resultado
+        // Validar resultado 
+        cy.get('[data-test="title"]').should('have.text','Products');
+        cy.get('[data-test="title"]').should('contain','Product');
     });
     
 });
